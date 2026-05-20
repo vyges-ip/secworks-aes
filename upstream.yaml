@@ -1,0 +1,16 @@
+schema_version: "vyges-upstream-v1"
+upstream:
+  type: "standalone"
+  repo: https://github.com/secworks/aes
+  branch: master
+  commit: 80dc4718e1dcbbdb4b0dd1bdb393d8f7b98981dc
+  extracted_at: "2026-05-20T21:42:40Z"
+license:
+  spdx: BSD-2-Clause
+  file: LICENSE
+metadata_locked: false
+notes: |
+  secworks family of crypto IPs is well-respected. BSD-2-Clause is
+  compatible with Vyges Apache-2.0 ecosystem. Use as the AES core inside
+  Vyges-owned wrappers for SoC integration (TL-UL or Wishbone). Listed
+  on the Vyges OpenFrame V0.0 IP roadmap.
